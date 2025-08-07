@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calc</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <section>
+        <h1>
+            Simple JS Calculator
+        </h1>
+        <div>
+            <input id="digit1" type="text" placeholder="0.00" required> <br>
+            <input  id="digit2" type="text" placeholder="0.00" required> <br>
+            <select name="symbol" id="symbols">
+                <option value="operator">select operation</option> <br> <br> 
+                <option value="add"> + </option> <br>
+                <option value="subtract"> - </option> <br>
+                <option value="multiply"> x </option> <br>
+                <option value="divide"> / </option> <br>
+                <option value="modulus"> % </option>
+            </select> <br>
+            <button onclick="Vidafa()"> = </button> <br>
+            <input type="text" id="outcome">
+        </div>
+    </section>
+</body>
+</html>
