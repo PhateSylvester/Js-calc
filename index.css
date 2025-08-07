@@ -21,6 +21,10 @@ h1 {
     margin: 20px;
     font-weight: bold;
 }
+input::placeholder {
+    text-align: center;
+    font-size: 25px;
+}
 div {
     display: flex;
     flex-direction: column;
