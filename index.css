@@ -28,6 +28,7 @@ input::placeholder {
 div {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 input {
     border-radius: 10px;
