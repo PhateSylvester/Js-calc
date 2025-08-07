@@ -28,4 +28,11 @@ function Vidafa() {
     {
         document.getElementById('outcome').value = digit1%digit2; 
     }
+    
+    // if (vidafa === 0) {
+    //     return "You cannot divide a number by ZERO";
+    // }
+    // else {
+    //     return digit1 / digit2;
+    // }
 }
